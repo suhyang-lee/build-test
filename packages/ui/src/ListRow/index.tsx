@@ -1,7 +1,7 @@
 import type {HTMLAttributes, ReactNode} from 'react'
 import classNames from 'classnames/bind'
 import {Flex} from '../Flex'
-import {Text} from '../Text'
+
 
 import styles from './ListRow.module.scss'
 
@@ -35,13 +35,13 @@ interface ListRowTextsProps {
 function ListRowTexts({title, subTitle}: ListRowTextsProps) {
     return (
         <Flex direction="column">
-            <Text size="t6" bold>
+            <p>
                 {title}
-            </Text>
+      </p>
             {subTitle != null ? (
-                <Text size="t7" color="adaptiveGrey600">
+               <p>
                     {subTitle}
-                </Text>
+              </p>
             ) : null}
         </Flex>
     )
