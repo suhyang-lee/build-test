@@ -1,3 +1,3 @@
 export const Text = () => {
-    return <div>sfsdfsd</div>
+    return <div>기본적인 수정</div>
 }
