@@ -5,7 +5,7 @@
         "version": "pnpm version",
         "deploy": "pnpm publish"
     },
-       "publishConfig": {
+ "publishConfig": {
         "access": "public"
     }
 }
