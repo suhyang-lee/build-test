@@ -2,7 +2,6 @@ import type {HTMLAttributes, ReactNode} from 'react'
 import classNames from 'classnames/bind'
 import {Flex} from '../Flex'
 
-
 import styles from './ListRow.module.scss'
 
 const cx = classNames.bind(styles)
@@ -35,14 +34,8 @@ interface ListRowTextsProps {
 function ListRowTexts({title, subTitle}: ListRowTextsProps) {
     return (
         <Flex direction="column">
-            <p>
-                {title}
-      </p>
-            {subTitle != null ? (
-               <p>
-                    {subTitle}
-              </p>
-            ) : null}
+            <p>{title}</p>
+            {subTitle != null ? <p>{subTitle}</p> : null}
         </Flex>
     )
 }

@@ -1,7 +1,6 @@
 import classNames from 'classnames/bind'
 import styles from '../Flex/Flex.module.scss'
 
-
 const cx = classNames.bind(styles)
 
 export const RATIO_MAP = {
