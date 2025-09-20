@@ -4,9 +4,10 @@ on:
         branches:
             - '**'
 
+# 여러가지 스텝에 따라 동작
 jobs:
     PrettierAndLint:
-        runs-on: ubuntu-latest
+        runs-on: ubuntu-latest 
         steps:
             - uses: actions/checkout@v4
             - uses: pnpm/action-setup@v4
