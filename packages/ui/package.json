@@ -1,5 +1,5 @@
 {
-    "name": "@suhyang/ui",
+    "name": "@leesuhyang/ui",
     "version": "0.0.0",
     "description": "",
     "main": "./dist/index.mjs",
@@ -29,7 +29,7 @@
     },
     "devDependencies": {
         "@naverpay/pite": "^2.1.0",
-        "@suhyang/tsconfig": "workspace:^",
+        "@leesuhyang/tsconfig": "workspace:^",
         "@types/react": "^18.2.28",
         "@types/react-dom": "^18.2.13"
     },

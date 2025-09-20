@@ -1,5 +1,5 @@
 {
-    "name": "@suhyang/eslint-config",
+    "name": "@leesuhyang/eslint-config",
     "version": "0.0.0",
     "description": "",
     "main": "./dist/index.js",

@@ -16,13 +16,14 @@
         "prettier:fix": "prettier --write '**/*.{ts,tsx,js,jsx,json}'",
         "start:docs": "turbo start:docs --filter ui-docs",
         "build:docs": "turbo build:docs",
-        "build:watch": "turbo build:watch"
+        "build:watch": "turbo build:watch",
+        "publish": "changeset publish"
     },
     "devDependencies": {
         "@changesets/cli": "^2.27.12",
         "@naverpay/pite": "^2.1.0",
-        "@suhyang/eslint-config": "workspace:^",
-        "@suhyang/prettier-config": "workspace:^",
+        "@leesuhyang/eslint-config": "workspace:^",
+        "@leesuhyang/prettier-config": "workspace:^",
         "@vitejs/plugin-react": "^4.4.1",
         "builtin-modules": "^4.0.0",
         "prettier": "^3.2.5",

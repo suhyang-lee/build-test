@@ -1,5 +1,5 @@
 {
-    "name": "@suhyang/tsconfig",
+    "name": "@leesuhyang/tsconfig",
     "version": "0.0.0",
     "scripts": {
         "version": "pnpm version",
